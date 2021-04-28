@@ -60,3 +60,8 @@ class UniEnVi(text_problems.Text2TextProblem):
                 'inputs': en.strip(),
                 'targets': vi.strip()
             }
+
+
+@registry.register_problem
+class UniViEn(text_problems.Text2TextProblem):
+    pass

@@ -3,3 +3,7 @@ tensorflow==1.15.2
 tensor2tensor
 nltk
 underthesea
+
+# app
+PyQt5
+PyQt5Designer

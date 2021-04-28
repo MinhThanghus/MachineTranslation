@@ -15,3 +15,14 @@ class UniEnViConfig:
     CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'unienvi', 'model.ckpt-800000')
     VOCAB_DIR = Config.VOCABS_DIR
     HPARAMS = 'transformer_base_single_gpu'
+
+
+class UniViEnConfig:
+    PROBLEM = 'uni_vi_en'
+    MODEL = 'transformer'
+    CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'univien', 'model.ckpt-573000')
+    VOCAB_DIR = Config.VOCABS_DIR
+    HPARAMS = 'transformer_base_single_gpu'
+
+
+
