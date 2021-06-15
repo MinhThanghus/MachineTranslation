@@ -7,3 +7,6 @@ underthesea
 # app
 PyQt5
 PyQt5Designer
+pyqtkeybind
+pyautogui
+pyperclip
