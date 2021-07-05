@@ -183,11 +183,13 @@ class Ui_MainWindow(object):
         self.translate_button.setEnabled(False)
         # self.output_box.setPlainText('Translating.....')
         input_text = self.input_box.toPlainText().strip()
+        print('input: ', input_text)
         if self.translate_direction == 0:
             output_text = self.envi_translator.translate_docs(input_text)
         else:
             output_text = self.vien_translator.translate_docs(input_text)
         self.output_box.setPlainText(output_text)
+        print('output: ', output_text)
         self.translate_button.setEnabled(True)
 
     def click_switch(self):

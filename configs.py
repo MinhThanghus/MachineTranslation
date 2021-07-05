@@ -12,7 +12,7 @@ class Config:
 class UniEnViConfig:
     PROBLEM = 'uni_en_vi'
     MODEL = 'transformer'
-    CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'unienvi', 'model.ckpt-1000000')
+    CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'unienvi', 'model.ckpt-best')
     VOCAB_DIR = Config.VOCABS_DIR
     HPARAMS = 'transformer_base_single_gpu'
 
@@ -20,7 +20,7 @@ class UniEnViConfig:
 class UniViEnConfig:
     PROBLEM = 'uni_vi_en'
     MODEL = 'transformer'
-    CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'univien', 'model.ckpt-1000000')
+    CHECKPOINT_PATH = os.path.join(Config.CHECKPOINTS_DIR, 'univien', 'model.ckpt-best')
     VOCAB_DIR = Config.VOCABS_DIR
     HPARAMS = 'transformer_base_single_gpu'
 
